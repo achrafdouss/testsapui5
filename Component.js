@@ -14,7 +14,7 @@ sap.ui.define([
             UIComponent.prototype.init.apply(this, arguments);
 
             var sODataServiceUrl = "/here/goes/your/odata/service/url/";
-
+console.log("test");
             // init our mock server
             mockserver.init(sODataServiceUrl);
 
